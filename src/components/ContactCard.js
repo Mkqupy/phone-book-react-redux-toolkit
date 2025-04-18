@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactCard({ contact, onDelete }) {
   const handleDelete = () => {
-    onDelete(contact.phone); // Або інший унікальний ідентифікатор
+    onDelete(contact.phone);
   };
 
   return (

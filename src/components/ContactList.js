@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactCard from './ContactCard';
 import { useSelector, useDispatch } from 'react-redux';
-import { deleteContact } from '../contactsSlice';
+import { deleteContact } from '../redux/contactsSlice';
 
 function ContactList() {
   const contacts = useSelector(state => state.contacts.contacts); // Оновіть шлях до стану
